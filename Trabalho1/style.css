@@ -1,0 +1,117 @@
+main p{
+    float: left;
+    margin-right: 20px;
+    width: 60%;
+    text-align: left;
+}
+.clearfix{
+    clear: both;
+}
+footer a{
+    color: rgb(90, 90, 90);
+}
+footer a:visited{
+    color: rgb(90, 90, 90);
+}
+footer a:hover{
+    color: black;
+}
+footer a.active{
+    color: black;
+    text-decoration: underline;
+}
+#options{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#options a{
+    color: white;
+}
+#options a:visited{
+    color: white;
+}
+#options a:hover{
+    color: black;
+}
+#options a.active{
+    color: black;
+    text-decoration: underline;
+}
+a {
+    padding-left: 9px;
+    padding-right: 9px;
+    text-align: center;
+    text-decoration: none;
+    height: 100px;
+    border: none;      
+}
+#exclu{
+    text-align: center;
+    border: solid black 1px;
+}
+body {
+    background-image: url("/imagens/jaime-dantas-_TUW4tX7bW0-unsplash.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+  }
+ footer div {
+    width: 70%;
+    background-color: white;
+    margin: 20px auto;
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+footer p { 
+    color: grey;
+}
+  header {
+    height: 25vh;
+    width: 100%;
+  }
+  main {
+    background-color: white;
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 50px; 
+    color: black;
+    border-radius: 10px;
+  }
+#n, #d, #f, #b{
+    color: blue;
+    background-color: white;
+}
+img{
+    width: 200px; 
+    height: 321px;
+}
+#options{
+    padding: 2px 0 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 165, 0, 0.5) ;
+} 
+body{
+    box-sizing: border-box;
+}
+li{
+    list-style-type: decimal;
+    margin-bottom: 20px;
+}
+#nome{
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    #exclud{
+       
+        width: 100%;
+        clear: both;
+        
+    }
+    #exclu{
+     width: 100%;
+     clear: both;
+        
+    }
+}
