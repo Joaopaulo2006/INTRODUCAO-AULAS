@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: aqua;
+    padding: 25px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+
+}
+a{
+    color: aliceblue;
+}
+a, a:hover, a:visited{
+    text-decoration: none;
+}
+nav, a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Bloco1{
+    padding: 10px;
+    border-left: 10px solid yellow;
+    background-color: gray;
+    padding: 100px;
+    float: right;
+    width: 25%;
+    position: absolute;
+
+}
+#Bloco2{
+    border: 10px;
+    border-color: black;
+    background-color: black;
+    padding: 100px;
+    float: right;
+    width: 50%;
+}
+#Bloco3{
+    border: 10px;
+    border-color: black;
+    background-color: gray;
+    padding: 100px;
+    float: right;
+    width: 25%;
+}
+#tabela{
+    border: 10px;
+}
