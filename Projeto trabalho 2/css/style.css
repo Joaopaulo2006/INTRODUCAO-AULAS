@@ -1,20 +1,78 @@
-.container{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
     position: relative;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    /* border:red 3px solid; */
+    /* border: red 3px solid; */
+    text-align: center;
 }
-.imgForca{
-    height: 300px;
+.title{
+    text-align: center;
+    /* border: solid red 3px; */
+    margin-bottom: -26px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+    background-color: rgba(62, 40, 40, 0.46);
 }
-body{
-    background-color: #FFFFFF;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.player{
+    margin-top: 105px;
+    text-align: center;
+    /* border: solid red 3px; */
+    background-color: rgba(62, 40, 40, 0.46);
+    padding-top: 250px;
+    padding-bottom: 125px;
+    margin-left: 499px;
+    margin-right: 499px;
+    border-radius: 10px;
+    color: black
 
 }
-button{
+
+
+#apresentação{
+    /* border: red 2px solid; */
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+#iniciar{
+    background: rgba(62, 40, 40, 0.46);
+
+    border: none;
+}
+.container h1{
     border:none;
+    background: rgba(62, 40, 40, 0.46);
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+#imgForca {
+    height: 320px;
+    width: 300px;
+    background-image: url("/Projeto trabalho 2/imagem/Imagem.png");
+    background-size: 105%;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* border: solid 2px red; */
+    opacity: 0.8;
+
+}
+body{
+    background-color: hsl(0, 1%, 30%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex button {
+    border: none;
     cursor: pointer;
     padding: 15px 15px 15px 15px;
     height: 50px;
@@ -31,28 +89,64 @@ button{
     align-items: center;
     text-align: center;
     margin-right: 25px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    position: relative;
+    top: 20px;
+    right: -13px;
+}
+#BtnEnter {
+    width: 150px;
+    background-image: url("/Projeto trabalho 2/imagem/Enter.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.253;
+}
+#BtnEnter:hover{
+    opacity: 0.4;
+}
 
+#imagemApaga:hover{
+    opacity: 0.4;
 }
-.flex{
- display: flex;
- justify-content: center;
- margin-bottom: 25px;
+button:hover {
+    background-color: #ffffff6b;
+    opacity: 0.4;
 }
-button:hover{
-
-    background-color: #FFFFFF;
-}
-#categoria{
+.categoria {
     position: absolute;
     width: 568px;
-    height: 56px;
-    left: 494px;
-    top: 340px;
+    height: 60px;
+    margin-left: 470px;
     background: rgba(62, 40, 40, 0.46);
     border-radius: 10px;
-    }
-#teclado{
-    padding: 40px;
+    /* border: red 3px solid; */
+    margin-top: 3px;
+}
+.categoria p {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    margin-top: 14px;
+    margin-right: 490px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.4)
+}
+#imagemApaga {
+    background-image: url("/Projeto trabalho 2/imagem/images.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.253;
+
+}
+#teclado {
+    position: relative;
+    padding: 20px;
     background: rgba(62, 40, 40, 0.46);
-    border-radius: 25px;
-    }
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-bottom: -1000px;
+}

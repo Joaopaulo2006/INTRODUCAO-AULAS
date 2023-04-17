@@ -10,15 +10,15 @@
 <body>
     <div class="container">
         <h1>Jogo da Forca</h1>
-        <p>jogador: </p>
     </div>
 
     <div class="container">
-        <div class="imgForca"></div>
+        <div id="imgForca">
+        </div>
         <div id="pegaLetra"></div>
         <div id="bancoLetra"></div>
     </div>
-    <div id="categoria">
+    <div class="categoria"><p>Tema:</p>
     </div>
     <div class="container">
         <div id="teclado">
@@ -54,6 +54,12 @@
                 <button  class="botaolike" onclick="handleClick(this)" data-id="X">X</button>
                 <button  class="botaolike" onclick="handleClick(this)" data-id="Y">Y</button>
                 <button  class="botaolike" onclick="handleClick(this)" data-id="Z">Z</button>
+
+            </div>
+            <div class="flex">
+                <button type="submit" class="botaolike" onclick="handleClick(this)" data-id="Enter" id="BtnEnter"></button>
+                <button  id="imagemApaga" class="botaolike" onclick="handleClick(this)" data-id="Apagar">
+                </button>
             </div>
         </div>
     </div>

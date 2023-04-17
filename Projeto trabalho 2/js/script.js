@@ -13,6 +13,11 @@
 // document.getElementById("bancoLetras").textContent = banco + dataId;
 // let banco = $('#bancoLetras').val();
 // $("#bancoLetras").html(banco + dataId);
+// var txt = "";
+// for(let k = 0; k < banco ; k++){
+//     txt = txt + banco;
+// }
+// $("#bancoLetra").val(banco + pegaLetra);
 function handleClick(button) {
     let dataId = button.getAttribute('data-id');
     $("#pegaLetra").html(dataId);
@@ -21,13 +26,8 @@ function handleClick(button) {
     var banco = document.getElementById("bancoLetra");
     let junta = banco + pegaLetra;
     const texto = pegaLetra.textContent;
-    // $("#bancoLetra").val(banco + pegaLetra);
 
     junta.innerHTML = ("Letras: " + pegaLetra);
 
-    // var txt = "";
-    // for(let k = 0; k < banco ; k++){
-    //     txt = txt + banco;
-    // }
     console.log(banco);
 }
