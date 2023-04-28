@@ -9,18 +9,39 @@ function calcular(){
     if (x >= y){
         txt = "Faixa de valores inválida. Tente novamente. ";
     }
+    // {
+    //     let k = 0;
+    //     while(1){
+    //         console.log(k++)
+    //     }
+    // }
 
+    // {
+    //     for(let k=0;;k++){
+    //         console.log("fototeta?");
+    //     }
+    // }
+
+    // var c = "";
+    // for (let k = x; k <= y; k++ ){
+    //     if (k % 2 ==0){
+    //         c = "par";
+    //     }else{
+    //         c = "impar";
+    //     }
+    //     txt += "<span class='"+c+"'>" + k + "</span> "; // txt = txt + " " + k;
+    // }
     var c = "";
-    for (let k = x; k <= y; k++ ){
-        if (k % 2 ==0){
+    let k = x;
+    while(k <= y) {
+        if(k%2 == 0) {
             c = "par";
-        }else{
-            c = "impar";
         }
-
+        else{
+            c = "Impar";
+        }
         txt += "<span class='"+c+"'>" + k + "</span> "; // txt = txt + " " + k;
-
-        
+        k++;
     }
 
     console.log(txt);
@@ -38,9 +59,9 @@ function verificarX(){
     const iptX = document.getElementById("iptX");
     const x = iptX.value;   
     // document.getElementById("spnRes").innerHTML = x;
-    const spnCondNum = document.querySelector("#spnCondNum");
+    const spnCondNum = document.querySelector("#spnCondNumX");
 
-    // spnCondNum.textContent = "";
+    spnCondNum.textContent = "";
     if (x % 2 == 0){
         iptX.className = "iptPar";
         spnCondNum.textContent += " PAR ";
