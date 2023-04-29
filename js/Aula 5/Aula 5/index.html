@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1 id="h1">Calculadora</h1>
+    <div class="calc">
+        <h2> PAR/IMPAR </h2>
+        <div id="nums">
+            <input placeholder="X:" type="number" id="iptX" oninput="procuraX()">
+            <br>
+            <span id="spnCondNumX">-</span>
+            <br>
+            <br>
+            <input placeholder="Y:" type="number" id="iptY" oninput="procuraY()">
+            <br>
+            <span id="spnCondNumY">-</span>
+        </div>
+        <div id="resposta">
+            <br><br>
+            <span id="spnRes"></span>
+            <br>
+            <br>
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
